@@ -40,7 +40,11 @@ print(time-localtime(time-time()))'''
 
 print("---Eulerization de city---")
 G = nx.Graph(city)
+print(G)
 g = nx.eulerize(G)
+with open('eulerized.txt', 'w') as f:
+    f.write('\n'.join(g))
+
 print("---Fin Eulerization de city---")
 print(time.localtime(time.time()))
 
