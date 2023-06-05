@@ -24,9 +24,7 @@ res = list(nx.eulerian_circuit(g))
 moyenne = []
 x = res[0][0]
 y = res[0][1]
-'''for i in range(len(res)):
-    x += res[i][0]
-    y += res[i][1] '''
+
 
 for i in range(len(res)):
     if (res[i][0] < x):
