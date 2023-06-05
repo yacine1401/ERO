@@ -70,7 +70,7 @@ def tsp_quartier(nom):
         path = nx.shortest_path(subgraph, last_node, first_node, weight="length")
         paths.append(path)
 
-    ox.plot_graph_route(ox.graph_from_place(data, network_type="drive"), paths, node_size=0, edge_linewidth=2,
+    ox.plot_graph(ox.graph_from_place(data, network_type="drive"), paths, node_size=0, edge_linewidth=2,
                         edge_color="blue", route_linewidth=4, show=False)
     
 
@@ -96,23 +96,17 @@ def tsp_quartier(nom):
     g = ox.graph_from_place(data, network_type="drive")
     #G = nx.Graph(g)
     G = g.to_undirected()
-    print("--- Eulerization du quartier ", nom, " ---")
-    g_eulerize = nx.eulerize(G)
-    print("--- Fin Eulerization ---")
     # christo = nx_app.christofides(g_eulerize, weight="weight")
     sol = tsp(G, cycle=False)
 
-    print(sol)
     #nx.draw(G)
     #plt.show()
     #for i in range(len(sol) - 1):
      # routes.append(nx.shortest_path(G, sol[i], sol[i + 1]))
     #fig , ax = ox.plot.plot_graph_route(G, sol, save=True, show=False, close=True )
-    #fig , ax = ox.plot.plot_graph_route(G, sol, route_color='r', route_linewidth=4) 
-    fig , ax = ox.plot.plot_graph(G,show=False,close=False, edge_color='r') 
+    #fig , ax = ox.plot.plot_graph_route(G, sol, route_color='r', route_linewidth=4)
 
     #draw_networkx(sol)
-    plt.show()
     return sol
 
 
