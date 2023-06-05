@@ -1,2 +1,214 @@
+
 ================== DRONE: Saint-Léonard ================
 
+calcul a la main = 864.9399999999999
+calcul a l'aide de la fct = (864.9399999999999, 29.8)
+06/05/2023, 21:09:34
+Arrondissement: Saint-Léonard
+--- Debut du TSP ---
+--- Fin du TSP ---
+Arrondissement: Saint-Léonard
+--- Debut du TSP ---
+--- Fin du TSP ---
+Cout pour 0 v1 et 0 v2: 0 euros, 0 heures 0 minutes
+===================================
+Cout pour 0 v1 et 1 v2: 908.96 euros, 3 heures 60 minutes
+===================================
+Cout pour 0 v1 et 2 v2: 1708.96 euros, 1 heures 60 minutes
+===================================
+Cout pour 0 v1 et 3 v2: 2508.96 euros, 1 heures 21 minutes
+===================================
+Cout pour 0 v1 et 4 v2: 3308.96 euros, 1 heures 1 minutes
+===================================
+Cout pour 0 v1 et 5 v2: 4108.96 euros, 0 heures 49 minutes
+===================================
+Cout pour 0 v1 et 6 v2: 4908.96 euros, 0 heures 41 minutes
+===================================
+Cout pour 0 v1 et 7 v2: 5708.96 euros, 0 heures 35 minutes
+===================================
+Cout pour 0 v1 et 8 v2: 6508.96 euros, 0 heures 31 minutes
+===================================
+Cout pour 0 v1 et 9 v2: 7308.96 euros, 0 heures 28 minutes
+===================================
+Cout pour 1 v1 et 0 v2: 596.59 euros, 7 heures 59 minutes
+===================================
+Cout pour 1 v1 et 1 v2: 1404.82 euros, 2 heures 41 minutes
+===================================
+Cout pour 1 v1 et 2 v2: 2206.47 euros, 1 heures 37 minutes
+===================================
+Cout pour 1 v1 et 3 v2: 3007.19 euros, 1 heures 10 minutes
+===================================
+Cout pour 1 v1 et 4 v2: 3807.58 euros, 0 heures 54 minutes
+===================================
+Cout pour 1 v1 et 5 v2: 4607.73 euros, 0 heures 48 minutes
+===================================
+Cout pour 1 v1 et 6 v2: 5407.95 euros, 0 heures 39 minutes
+===================================
+Cout pour 1 v1 et 7 v2: 6208.12 euros, 0 heures 34 minutes
+===================================
+Cout pour 1 v1 et 8 v2: 7008.22 euros, 0 heures 30 minutes
+===================================
+Cout pour 1 v1 et 9 v2: 7808.29 euros, 0 heures 27 minutes
+===================================
+Cout pour 2 v1 et 0 v2: 1096.59 euros, 3 heures 60 minutes
+===================================
+Cout pour 2 v1 et 1 v2: 1902.74 euros, 2 heures 1 minutes
+===================================
+Cout pour 2 v1 et 2 v2: 2704.82 euros, 1 heures 21 minutes
+===================================
+Cout pour 2 v1 et 3 v2: 3505.79 euros, 1 heures 2 minutes
+===================================
+Cout pour 2 v1 et 4 v2: 4306.44 euros, 0 heures 50 minutes
+===================================
+Cout pour 2 v1 et 5 v2: 5106.84 euros, 0 heures 42 minutes
+===================================
+Cout pour 2 v1 et 6 v2: 5907.07 euros, 0 heures 39 minutes
+===================================
+Cout pour 2 v1 et 7 v2: 6707.33 euros, 0 heures 33 minutes
+===================================
+Cout pour 2 v1 et 8 v2: 7507.54 euros, 0 heures 29 minutes
+===================================
+Cout pour 2 v1 et 9 v2: 8307.68 euros, 0 heures 26 minutes
+===================================
+Cout pour 3 v1 et 0 v2: 1596.59 euros, 2 heures 41 minutes
+===================================
+Cout pour 3 v1 et 1 v2: 2401.5 euros, 1 heures 37 minutes
+===================================
+Cout pour 3 v1 et 2 v2: 3203.62 euros, 1 heures 10 minutes
+===================================
+Cout pour 3 v1 et 3 v2: 4004.81 euros, 0 heures 54 minutes
+===================================
+Cout pour 3 v1 et 4 v2: 4805.45 euros, 0 heures 48 minutes
+===================================
+Cout pour 3 v1 et 5 v2: 5606.01 euros, 0 heures 39 minutes
+===================================
+Cout pour 3 v1 et 6 v2: 6406.38 euros, 0 heures 34 minutes
+===================================
+Cout pour 3 v1 et 7 v2: 7206.71 euros, 0 heures 30 minutes
+===================================
+Cout pour 3 v1 et 8 v2: 8006.94 euros, 0 heures 27 minutes
+===================================
+Cout pour 3 v1 et 9 v2: 8807.14 euros, 0 heures 25 minutes
+===================================
+Cout pour 4 v1 et 0 v2: 2096.59 euros, 2 heures 1 minutes
+===================================
+Cout pour 4 v1 et 1 v2: 2900.68 euros, 1 heures 21 minutes
+===================================
+Cout pour 4 v1 et 2 v2: 3702.65 euros, 1 heures 2 minutes
+===================================
+Cout pour 4 v1 et 3 v2: 4503.94 euros, 0 heures 50 minutes
+===================================
+Cout pour 4 v1 et 4 v2: 5304.75 euros, 0 heures 42 minutes
+===================================
+Cout pour 4 v1 et 5 v2: 6105.21 euros, 0 heures 39 minutes
+===================================
+Cout pour 4 v1 et 6 v2: 6905.77 euros, 0 heures 33 minutes
+===================================
+Cout pour 4 v1 et 7 v2: 7706.15 euros, 0 heures 29 minutes
+===================================
+Cout pour 4 v1 et 8 v2: 8506.38 euros, 0 heures 27 minutes
+===================================
+Cout pour 4 v1 et 9 v2: 9306.59 euros, 0 heures 25 minutes
+===================================
+Cout pour 5 v1 et 0 v2: 2596.59 euros, 1 heures 37 minutes
+===================================
+Cout pour 5 v1 et 1 v2: 3400.07 euros, 1 heures 10 minutes
+===================================
+Cout pour 5 v1 et 2 v2: 4202.03 euros, 0 heures 55 minutes
+===================================
+Cout pour 5 v1 et 3 v2: 5003.1 euros, 0 heures 48 minutes
+===================================
+Cout pour 5 v1 et 4 v2: 5804.1 euros, 0 heures 39 minutes
+===================================
+Cout pour 5 v1 et 5 v2: 6604.71 euros, 0 heures 34 minutes
+===================================
+Cout pour 5 v1 et 6 v2: 7405.21 euros, 0 heures 30 minutes
+===================================
+Cout pour 5 v1 et 7 v2: 8205.6 euros, 0 heures 27 minutes
+===================================
+Cout pour 5 v1 et 8 v2: 9005.92 euros, 0 heures 25 minutes
+===================================
+Cout pour 5 v1 et 9 v2: 9806.07 euros, 0 heures 27 minutes
+===================================
+Cout pour 6 v1 et 0 v2: 3096.59 euros, 1 heures 21 minutes
+===================================
+Cout pour 6 v1 et 1 v2: 3899.52 euros, 1 heures 2 minutes
+===================================
+Cout pour 6 v1 et 2 v2: 4701.39 euros, 0 heures 50 minutes
+===================================
+Cout pour 6 v1 et 3 v2: 5502.65 euros, 0 heures 42 minutes
+===================================
+Cout pour 6 v1 et 4 v2: 6303.4 euros, 0 heures 39 minutes
+===================================
+Cout pour 6 v1 et 5 v2: 7104.2 euros, 0 heures 33 minutes
+===================================
+Cout pour 6 v1 et 6 v2: 7904.75 euros, 0 heures 29 minutes
+===================================
+Cout pour 6 v1 et 7 v2: 8705.13 euros, 0 heures 27 minutes
+===================================
+Cout pour 6 v1 et 8 v2: 9505.45 euros, 0 heures 25 minutes
+===================================
+Cout pour 6 v1 et 9 v2: 10305.76 euros, 0 heures 23 minutes
+===================================
+Cout pour 7 v1 et 0 v2: 3596.59 euros, 1 heures 10 minutes
+===================================
+Cout pour 7 v1 et 1 v2: 4399.26 euros, 0 heures 55 minutes
+===================================
+Cout pour 7 v1 et 2 v2: 5200.82 euros, 0 heures 48 minutes
+===================================
+Cout pour 7 v1 et 3 v2: 6002.14 euros, 0 heures 39 minutes
+===================================
+Cout pour 7 v1 et 4 v2: 6802.94 euros, 0 heures 35 minutes
+===================================
+Cout pour 7 v1 et 5 v2: 7603.71 euros, 0 heures 30 minutes
+===================================
+Cout pour 7 v1 et 6 v2: 8404.22 euros, 0 heures 29 minutes
+===================================
+Cout pour 7 v1 et 7 v2: 9204.71 euros, 0 heures 25 minutes
+===================================
+Cout pour 7 v1 et 8 v2: 10004.98 euros, 0 heures 27 minutes
+===================================
+Cout pour 7 v1 et 9 v2: 10805.3 euros, 0 heures 22 minutes
+===================================
+Cout pour 8 v1 et 0 v2: 4096.59 euros, 1 heures 2 minutes
+===================================
+Cout pour 8 v1 et 1 v2: 4898.87 euros, 0 heures 50 minutes
+===================================
+Cout pour 8 v1 et 2 v2: 5700.57 euros, 0 heures 42 minutes
+===================================
+Cout pour 8 v1 et 3 v2: 6501.61 euros, 0 heures 39 minutes
+===================================
+Cout pour 8 v1 et 4 v2: 7302.65 euros, 0 heures 33 minutes
+===================================
+Cout pour 8 v1 et 5 v2: 8103.34 euros, 0 heures 29 minutes
+===================================
+Cout pour 8 v1 et 6 v2: 8903.85 euros, 0 heures 27 minutes
+===================================
+Cout pour 8 v1 et 7 v2: 9704.29 euros, 0 heures 25 minutes
+===================================
+Cout pour 8 v1 et 8 v2: 10504.69 euros, 0 heures 22 minutes
+===================================
+Cout pour 8 v1 et 9 v2: 11304.88 euros, 0 heures 22 minutes
+===================================
+Cout pour 9 v1 et 0 v2: 4596.59 euros, 0 heures 55 minutes
+===================================
+Cout pour 9 v1 et 1 v2: 5398.54 euros, 0 heures 48 minutes
+===================================
+Cout pour 9 v1 et 2 v2: 6200.2 euros, 0 heures 39 minutes
+===================================
+Cout pour 9 v1 et 3 v2: 7001.28 euros, 0 heures 35 minutes
+===================================
+Cout pour 9 v1 et 4 v2: 7802.21 euros, 0 heures 30 minutes
+===================================
+Cout pour 9 v1 et 5 v2: 8602.91 euros, 0 heures 29 minutes
+===================================
+Cout pour 9 v1 et 6 v2: 9403.44 euros, 0 heures 26 minutes
+===================================
+Cout pour 9 v1 et 7 v2: 10203.85 euros, 0 heures 27 minutes
+===================================
+Cout pour 9 v1 et 8 v2: 11004.29 euros, 0 heures 22 minutes
+===================================
+Cout pour 9 v1 et 9 v2: 11804.59 euros, 0 heures 21 minutes
+===================================
+Total length= 79823.03499999999 metres
+Temps d'éxécution : 4.1e+02s

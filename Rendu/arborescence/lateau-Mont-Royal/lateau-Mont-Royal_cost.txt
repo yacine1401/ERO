@@ -1,0 +1,7 @@
+
+================== DRONE: Le Plateau-Mont-Royal ================
+
+calcul a la main = 864.9399999999999
+calcul a l'aide de la fct = (864.9399999999999, 29.8)
+06/05/2023, 21:20:33
+Arrondissement: Le
