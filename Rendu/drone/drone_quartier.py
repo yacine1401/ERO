@@ -56,7 +56,7 @@ for i in range(len(res)):
     print(i, ": ", res[i])
 
 end = time.time()
-elapsed = (end - start) / 100
-print(f'Temps d\éxécution : {elapsed:.2}s')
+elapsed = end - start
+print(f'Temps d\'éxécution : {elapsed:.2}s')
 print(round(length) / 1000, "Km a parcourir dans le quartier", sys.argv[1], ".")
 print("Pour un cout de", round(length / 1000) / 100, "euros et 100 euros de locations.")
