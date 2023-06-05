@@ -1,8 +1,9 @@
 #!/bin/sh
 
-DRONE=false
-MONT=false
-COST=false
+DRONE=0
+MONT=0
+COST=0
+TSP=0
 quartier="Outremont"
 
 while [ $# -gt 0 ]; do
@@ -13,15 +14,19 @@ while [ $# -gt 0 ]; do
             exit 1
             ;;
         -d|--drone)
-            DRONE=true
+            DRONE=1
+            shift
+            ;;
+        -t|--tsp)
+            TSP=1
             shift
             ;;
         -c|--cost)
-            COST=true
+            COST=1
             shift
             ;;
         -m|--montreal)
-            MONT=true
+            MONT=1
             shift
             ;;
         -q|--quartier)
@@ -40,21 +45,25 @@ while [ $# -gt 0 ]; do
     fi
 done
 
-if [ MONT ]; then
-    if [ DRONE ]; then
-        echo -e CIRCUIT du drone arete par arete '\n' > data
+if [ ${MONT} -eq 1 ]; then
+    if [ ${DRONE} -eq 1 ]; then
+        echo -e '================== DRONE: Montreal ================\n'
         echo -e CIRCUIT du drone arete par arete '\n'
         python3 drone/drone_montreal.py
     fi
-    if [ COST ]; then
+    if [ ${COST} -eq 1 ]; then
+        echo -e '\n================== COST: Montreal ================\n'
         python3 cost/cost_montreal.py
+    fi
+    if [ ${TSP} ]; then
+        echo Pas de version montreal pour tsp
     fi
     exit 1
 fi
 
-if [ DRONE ]; then
-    echo -e CIRCUIT du drone arete par arete '\n' > data
-    python3 drone/drone_quartier.py ${quartier} >> data
+if [ ${DRONE} -eq 1 ]; then
+    echo -e '================== DRONE:' ${quartier} '================\n'
+    python3 drone/drone_quartier.py ${quartier}
 
     if [ $? -eq 1 ]; then
         echo -e '\n=================================================='
@@ -65,7 +74,12 @@ if [ DRONE ]; then
     cat data
 fi
 
-if [ COST ]; then
-    python3 cost/cost_quartier.py ${quartier} >> data
-    cat data
+if [ ${COST} -eq 1 ]; then
+    echo -e '\n================== DRONE:' ${quartier} '================\n'
+    python3 cost/cost_quartier.py ${quartier}
+fi
+
+if [ ${TSP} -eq 1 ]; then
+    echo -e '\n================== TSP:' ${quartier} '================\n'
+    python3 cost/tsp.py ${quartier}
 fi

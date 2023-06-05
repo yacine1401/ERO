@@ -1,4 +1,6 @@
 FLAG script.sh:
+    --tsp/-t : 
+
     --drone/-d : affiche le circuit effectue par le drone arete par arete, la
                  distance a parcourirs et le prix de l'operation.
 

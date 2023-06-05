@@ -5,6 +5,7 @@
 # return :
 # - prix en euro du parcours de deneigeage
 import time
+import sys
 
 start = time.time()
 def cost(road, nb_v1, nb_v2):
