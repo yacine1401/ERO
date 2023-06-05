@@ -1,0 +1,2 @@
+FLAG script.sh:
+    --drone/-d : affiche le circuit effectuer par le drone arrete par arrete

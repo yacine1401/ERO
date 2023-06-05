@@ -1,17 +1,29 @@
 #!/bin/sh
 
-Drone=false
+DRONE=false
+TIEKS=false
 
 while [ $# -gt 0 ]; do
     case $1 in
         -d|--drone)
-            Drone=true
+            DRONE=true
+            shift
+            ;;
+        -q|--quartier)
+            TIEKS=true
+            shift
+            quartier=$1
             shift
             ;;
     esac
 done
 
-if [ Drone ]; then
+if [ TIEKS ]; then
+    if [ quartier = "Outremont" ]
+
+
+if [ DRONE ]; then
+
     echo -e CIRCUIT du drone arrete par arrete '\n' > data
     python3 center.py >> data
     cat data
