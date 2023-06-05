@@ -4,7 +4,9 @@
 # - nb_v2 ---> nombre de vehicule de type II
 # return :
 # - prix en euro du parcours de deneigeage
+import time
 
+start = time.time()
 def cost(road, nb_v1, nb_v2):
     size_road = sum(road)
     portion_road_v1 = size_road / (nb_v1 + 2 * nb_v2)
@@ -102,3 +104,6 @@ for nb_v1 in range(10):
         print("===================================")
 
 print("Total length=", sum(lengths) * 1000, "metres")
+end = time.time()
+elapsed = end - start
+print(f'Temps d\'éxécution : {elapsed:.2}s')
