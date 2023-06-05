@@ -3,8 +3,9 @@ import networkx as nx
 import math
 import time
 import matplotlib.pyplot as plt
+import sys
 
-city = ox.graph_from_place("Outremont, Montreal, CANADA", network_type="drive")
+city = ox.graph_from_place(sys.argv[1] + ", Montreal, CANADA", network_type="drive")
 #ox.plot_graph(city, node_color="r")
 
 #print("---Eulerization de city---")
