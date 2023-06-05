@@ -25,6 +25,6 @@ if [ TIEKS ]; then
 if [ DRONE ]; then
 
     echo -e CIRCUIT du drone arrete par arrete '\n' > data
-    python3 center.py >> data
+    python3 parcours_drone/data_centering.py >> data
     cat data
 fi
