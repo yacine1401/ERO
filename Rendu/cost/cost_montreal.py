@@ -100,7 +100,7 @@ for nom in arrondissements:
 for nb_v1 in range(10):
     for nb_v2 in range(10): 
         cout = cost(lengths, nb_v1, nb_v2)
-        print(f"Cout pour {nb_v1} v1 et {nb_v2} v2:", cout[0], "euros,", math.floor(cout[1]), "heures", math.ceil((cout[1] - math.floor(cout[1])) * 60), "minutes")
+        print(f"Cout pour {nb_v1} v1 et {nb_v2} v2:", round(cout[0], 2), "euros,", math.floor(cout[1]), "heures", math.ceil((cout[1] - math.floor(cout[1])) * 60), "minutes")
         print("===================================")
 
 print("Total length=", sum(lengths) * 1000, "metres")

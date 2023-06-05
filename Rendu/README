@@ -1,5 +1,5 @@
 FLAG script.sh:
-    --tsp/-t : 
+    --tsp/-t : affiche 2 fois le plus cours chemin pour les denneigeuses
 
     --drone/-d : affiche le circuit effectue par le drone arete par arete, la
                  distance a parcourirs et le prix de l'operation.
