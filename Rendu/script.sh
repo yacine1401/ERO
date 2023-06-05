@@ -44,12 +44,10 @@ if [ MONT ]; then
     if [ DRONE ]; then
         echo -e CIRCUIT du drone arete par arete '\n' > data
         echo -e CIRCUIT du drone arete par arete '\n'
-        python3 drone/drone_montreal.py | tee -a data >> /dev/stdout
+        python3 drone/drone_montreal.py
     fi
     if [ COST ]; then
-        echo -e CIRCUIT du drone arete par arete '\n' > data
-        echo -e CIRCUIT du drone arete par arete '\n'
-        python3 cost/cost_montreal.py | tee -a data >> /dev/stdout
+        python3 cost/cost_montreal.py
     fi
     exit 1
 fi
