@@ -1,0 +1,199 @@
+Cout pour 0 v1 et 1 v2: 3263.208805249992 euros, 89 heures 38 minutes
+===================================
+Cout pour 0 v1 et 2 v2: 4061.608805249995 euros, 44 heures 50 minutes
+===================================
+Cout pour 0 v1 et 3 v2: 4860.008805249994 euros, 29 heures 54 minutes
+===================================
+Cout pour 0 v1 et 4 v2: 5658.4088052499965 euros, 22 heures 25 minutes
+===================================
+Cout pour 0 v1 et 5 v2: 6456.808805249995 euros, 17 heures 57 minutes
+===================================
+Cout pour 0 v1 et 6 v2: 7255.208805249995 euros, 14 heures 58 minutes
+===================================
+Cout pour 0 v1 et 7 v2: 8053.608805249999 euros, 12 heures 49 minutes
+===================================
+Cout pour 0 v1 et 8 v2: 8852.008805249998 euros, 11 heures 13 minutes
+===================================
+Cout pour 0 v1 et 9 v2: 9650.408805250001 euros, 9 heures 59 minutes
+===================================
+Cout pour 1 v1 et 0 v2: 2703.283513059993 euros, 179 heures 16 minutes
+===================================
+Cout pour 1 v1 et 1 v2: 3674.8996012999914 euros, 59 heures 48 minutes
+===================================
+Cout pour 1 v1 et 2 v2: 4508.023071894999 euros, 35 heures 53 minutes
+===================================
+Cout pour 1 v1 et 3 v2: 5321.248281519999 euros, 25 heures 38 minutes
+===================================
+Cout pour 1 v1 et 4 v2: 6127.879890194998 euros, 19 heures 58 minutes
+===================================
+Cout pour 1 v1 et 5 v2: 6931.566395604997 euros, 16 heures 19 minutes
+===================================
+Cout pour 1 v1 et 6 v2: 7733.61135993 euros, 13 heures 48 minutes
+===================================
+Cout pour 1 v1 et 7 v2: 8534.654150084998 euros, 11 heures 59 minutes
+===================================
+Cout pour 1 v1 et 8 v2: 9335.116029639996 euros, 10 heures 35 minutes
+===================================
+Cout pour 1 v1 et 9 v2: 10135.116274000002 euros, 9 heures 27 minutes
+===================================
+Cout pour 2 v1 et 0 v2: 3201.6835130599957 euros, 89 heures 39 minutes
+===================================
+Cout pour 2 v1 et 1 v2: 4130.011861144994 euros, 44 heures 50 minutes
+===================================
+Cout pour 2 v1 et 2 v2: 4971.699601299996 euros, 29 heures 56 minutes
+===================================
+Cout pour 2 v1 et 3 v2: 5791.803374574997 euros, 22 heures 26 minutes
+===================================
+Cout pour 2 v1 et 4 v2: 6603.223071894998 euros, 17 heures 57 minutes
+===================================
+Cout pour 2 v1 et 5 v2: 7410.286494194996 euros, 14 heures 58 minutes
+===================================
+Cout pour 2 v1 et 6 v2: 8214.84828152 euros, 12 heures 50 minutes
+===================================
+Cout pour 2 v1 et 7 v2: 9017.85301723 euros, 11 heures 15 minutes
+===================================
+Cout pour 2 v1 et 8 v2: 9819.879890195001 euros, 9 heures 60 minutes
+===================================
+Cout pour 2 v1 et 9 v2: 10621.185750949995 euros, 8 heures 59 minutes
+===================================
+Cout pour 3 v1 et 0 v2: 3700.0835130599953 euros, 59 heures 48 minutes
+===================================
+Cout pour 3 v1 et 1 v2: 4602.390802625 euros, 35 heures 54 minutes
+===================================
+Cout pour 3 v1 et 2 v2: 5445.375818485 euros, 25 heures 38 minutes
+===================================
+Cout pour 3 v1 et 3 v2: 6268.499601299998 euros, 19 heures 58 minutes
+===================================
+Cout pour 3 v1 et 4 v2: 7082.6738850799975 euros, 16 heures 19 minutes
+===================================
+Cout pour 3 v1 et 5 v2: 7891.937805629999 euros, 13 heures 50 minutes
+===================================
+Cout pour 3 v1 et 6 v2: 8698.357393274999 euros, 11 heures 59 minutes
+===================================
+Cout pour 3 v1 et 7 v2: 9502.852078079999 euros, 10 heures 37 minutes
+===================================
+Cout pour 3 v1 et 8 v2: 10306.15138332 euros, 9 heures 27 minutes
+===================================
+Cout pour 3 v1 et 9 v2: 11108.331369614998 euros, 8 heures 36 minutes
+===================================
+Cout pour 4 v1 et 0 v2: 4198.483513059998 euros, 44 heures 50 minutes
+===================================
+Cout pour 4 v1 et 1 v2: 5083.433971734998 euros, 29 heures 56 minutes
+===================================
+Cout pour 4 v1 et 2 v2: 5925.195373484999 euros, 22 heures 26 minutes
+===================================
+Cout pour 4 v1 et 3 v2: 6749.60042647 euros, 17 heures 57 minutes
+===================================
+Cout pour 4 v1 et 4 v2: 7565.2996012999965 euros, 14 heures 59 minutes
+===================================
+Cout pour 4 v1 et 5 v2: 8376.047833925002 euros, 12 heures 52 minutes
+===================================
+Cout pour 4 v1 et 6 v2: 9183.64284464 euros, 11 heures 18 minutes
+===================================
+Cout pour 4 v1 et 7 v2: 9989.391893850001 euros, 9 heures 60 minutes
+===================================
+Cout pour 4 v1 et 8 v2: 10793.557393274992 euros, 8 heures 60 minutes
+===================================
+Cout pour 4 v1 et 9 v2: 11596.709601089995 euros, 8 heures 12 minutes
+===================================
+Cout pour 5 v1 et 0 v2: 4696.883513059999 euros, 35 heures 54 minutes
+===================================
+Cout pour 5 v1 et 1 v2: 5569.46290161 euros, 25 heures 38 minutes
+===================================
+Cout pour 5 v1 et 2 v2: 6409.119848759998 euros, 19 heures 58 minutes
+===================================
+Cout pour 5 v1 et 3 v2: 7233.668866299998 euros, 16 heures 24 minutes
+===================================
+Cout pour 5 v1 et 4 v2: 8050.311990404999 euros, 13 heures 50 minutes
+===================================
+Cout pour 5 v1 et 5 v2: 8862.06963705 euros, 11 heures 59 minutes
+===================================
+Cout pour 5 v1 et 6 v2: 9670.641603535 euros, 10 heures 37 minutes
+===================================
+Cout pour 5 v1 et 7 v2: 10477.163386744993 euros, 9 heures 27 minutes
+===================================
+Cout pour 5 v1 et 8 v2: 11281.897553114999 euros, 8 heures 36 minutes
+===================================
+Cout pour 5 v1 et 9 v2: 12086.370014265001 euros, 7 heures 50 minutes
+===================================
+Cout pour 6 v1 et 0 v2: 5195.283513059998 euros, 29 heures 56 minutes
+===================================
+Cout pour 6 v1 et 1 v2: 6058.58601853 euros, 22 heures 26 minutes
+===================================
+Cout pour 6 v1 et 2 v2: 6895.990802625001 euros, 17 heures 57 minutes
+===================================
+Cout pour 6 v1 et 3 v2: 7720.357369129999 euros, 14 heures 59 minutes
+===================================
+Cout pour 6 v1 et 4 v2: 8537.279541240001 euros, 12 heures 52 minutes
+===================================
+Cout pour 6 v1 et 5 v2: 9349.50573204 euros, 11 heures 18 minutes
+===================================
+Cout pour 6 v1 et 6 v2: 10158.8996013 euros, 9 heures 60 minutes
+===================================
+Cout pour 6 v1 et 7 v2: 10965.841699779994 euros, 9 heures 3 minutes
+===================================
+Cout pour 6 v1 et 8 v2: 11771.435304929997 euros, 8 heures 11 minutes
+===================================
+Cout pour 6 v1 et 9 v2: 12577.222758240003 euros, 7 heures 35 minutes
+===================================
+Cout pour 7 v1 et 0 v2: 5693.683513060003 euros, 25 heures 38 minutes
+===================================
+Cout pour 7 v1 et 1 v2: 6549.743895654999 euros, 19 heures 58 minutes
+===================================
+Cout pour 7 v1 et 2 v2: 7384.705684224999 euros, 16 heures 24 minutes
+===================================
+Cout pour 7 v1 et 3 v2: 8208.70267705 euros, 13 heures 50 minutes
+===================================
+Cout pour 7 v1 et 4 v2: 9025.777398150003 euros, 11 heures 59 minutes
+===================================
+Cout pour 7 v1 et 5 v2: 9838.444552365001 euros, 10 heures 37 minutes
+===================================
+Cout pour 7 v1 et 6 v2: 10648.184007809992 euros, 9 heures 27 minutes
+===================================
+Cout pour 7 v1 et 7 v2: 11455.517348624999 euros, 8 heures 36 minutes
+===================================
+Cout pour 7 v1 et 8 v2: 12262.187105690002 euros, 7 heures 50 minutes
+===================================
+Cout pour 7 v1 et 9 v2: 13068.949732750005 euros, 7 heures 13 minutes
+===================================
+Cout pour 8 v1 et 0 v2: 6192.083513060003 euros, 22 heures 26 minutes
+===================================
+Cout pour 8 v1 et 1 v2: 7042.363874480002 euros, 17 heures 58 minutes
+===================================
+Cout pour 8 v1 et 2 v2: 7875.4339717349985 euros, 14 heures 59 minutes
+===================================
+Cout pour 8 v1 et 3 v2: 8698.510645065002 euros, 12 heures 52 minutes
+===================================
+Cout pour 8 v1 et 4 v2: 9515.351373285 euros, 11 heures 18 minutes
+===================================
+Cout pour 8 v1 et 5 v2: 10328.414620519996 euros, 9 heures 60 minutes
+===================================
+Cout pour 8 v1 et 6 v2: 11138.136348119993 euros, 9 heures 3 minutes
+===================================
+Cout pour 8 v1 et 7 v2: 11946.106101909993 euros, 8 heures 13 minutes
+===================================
+Cout pour 8 v1 et 8 v2: 12753.998952155003 euros, 7 heures 35 minutes
+===================================
+Cout pour 8 v1 et 9 v2: 13561.266323849999 euros, 6 heures 56 minutes
+===================================
+Cout pour 9 v1 et 0 v2: 6690.483513060001 euros, 19 heures 58 minutes
+===================================
+Cout pour 9 v1 et 1 v2: 7535.790677819999 euros, 16 heures 24 minutes
+===================================
+Cout pour 9 v1 et 2 v2: 8367.092921299998 euros, 13 heures 50 minutes
+===================================
+Cout pour 9 v1 et 3 v2: 9189.505899760003 euros, 11 heures 59 minutes
+===================================
+Cout pour 9 v1 et 4 v2: 10006.239106999996 euros, 10 heures 37 minutes
+===================================
+Cout pour 9 v1 et 5 v2: 10819.184731684993 euros, 9 heures 28 minutes
+===================================
+Cout pour 9 v1 et 6 v2: 11629.151481009996 euros, 8 heures 36 minutes
+===================================
+Cout pour 9 v1 et 7 v2: 12437.744287690002 euros, 7 heures 58 minutes
+===================================
+Cout pour 9 v1 et 8 v2: 13246.697679790004 euros, 7 heures 13 minutes
+===================================
+Cout pour 9 v1 et 9 v2: 14054.138935135 euros, 6 heures 40 minutes
+===================================
+Total length= 1792588.221999994 metres

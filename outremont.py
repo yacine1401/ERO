@@ -72,7 +72,6 @@ def chemin_deneigeuse():
             if target in sommet_parcouru:
                 if len(sommet_parcouru) == len(nodes):
                     sommet_parcouru = []
-                    print("Tous les sommets sont parcourus")
                 else:
                     continue
 
