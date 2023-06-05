@@ -71,7 +71,6 @@ if [ ${DRONE} -eq 1 ]; then
         echo -e '==================================================\n'
         exit 1
     fi
-    cat data
 fi
 
 if [ ${COST} -eq 1 ]; then
