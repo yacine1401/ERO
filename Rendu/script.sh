@@ -1,7 +1,6 @@
 #!/bin/sh
 
 DRONE=false
-TIEKS=false
 quartier="Outremont"
 
 while [ $# -gt 0 ]; do
@@ -11,10 +10,9 @@ while [ $# -gt 0 ]; do
             shift
             ;;
         -q|--quartier)
-            TIEKS=true
             shift
             if [ $# -le 0 ]; then
-                echo Nom d arrondissement attendu
+                echo Nom d\'arrondissement attendu apres -q ou --quartier
                 exit 1
             fi
             quartier=$1
