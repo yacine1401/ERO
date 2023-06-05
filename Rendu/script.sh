@@ -2,10 +2,16 @@
 
 DRONE=false
 NEIGE=false
+MONT=false
 quartier="Outremont"
 
 while [ $# -gt 0 ]; do
+    save=$#
     case $1 in
+        -h|--help)
+            cat README
+            exit 1
+            ;;
         -d|--drone)
             DRONE=true
             shift
@@ -14,8 +20,8 @@ while [ $# -gt 0 ]; do
             NEIGE=true
             shift
             ;;
-        -n|--deneigeuse)
-            NEIGE=true
+        -m|--montreal)
+            MONT=true
             shift
             ;;
         -q|--quartier)
@@ -28,7 +34,14 @@ while [ $# -gt 0 ]; do
             shift
             ;;
     esac
+    if [ $# -ge $save ]; then
+        echo Flag $1 invalide ou mal place.
+        exit 1
+    fi
 done
+
+if [
+
 
 if [ DRONE ]; then
     echo -e CIRCUIT du drone arete par arete '\n' > data
