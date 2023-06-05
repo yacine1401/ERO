@@ -1,5 +1,5 @@
 # G le graphe
-# renvoie une liste de niveau de neige en centimetr
+# renvoie une liste de niveau de neige en centimetre
 # pour chaque noeuds
 
 import random as rd
