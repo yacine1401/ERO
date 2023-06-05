@@ -28,6 +28,7 @@ arrondissements = [
     "Villeray–Saint-Michel–Parc-Extension",
 ]
 
+length = 0
 
 def chemin_drone():
     circuits = []
@@ -37,18 +38,18 @@ def chemin_drone():
         data = arrondissement + data
         g = ox.graph_from_place(data, network_type="drive")
         G = nx.Graph(g)
-        print("--- Eulerization du quartier ", arrondissement, " ---")
         g_eulerize = nx.eulerize(G)
-        print("--- Fin Eulerization ---")
-        print("---Debut de Eulerian circuit---")
         res = list(nx.eulerian_circuit(g_eulerize))
-        print("---Fin de Eulerian circuit---")
         circuits.append(res)
+
+        for e in res:
+            for edge in edges:
+                if (e == (edge[0], edge[1])):
+                    length += edge[3]['length']
+
     return circuits
 
 circuits = chemin_drone()
 
-print("--- List des circuits ---")
-print(circuits)
-
-print(time.localtime(time.time()))
+print(round(length) / 1000, "Km a parcourir dans Montreal", sys.argv[1], ".")
+print("Pour un cout de", round(length / 1000) / 100, "euros et 100 euros de locations.")

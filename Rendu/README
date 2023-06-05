@@ -7,3 +7,4 @@ FLAG script.sh:
     --quartier/-q + quartier : affiche le circuit effectue par le drone arete
                                par arete du quartier choisi, Outremont par default
                                si pas de flag.
+    --Montreal/-m  : execute les codes selectionnes dans l'ensemble de Montreal

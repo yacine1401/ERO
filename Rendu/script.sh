@@ -14,6 +14,10 @@ while [ $# -gt 0 ]; do
             NEIGE=true
             shift
             ;;
+        -n|--deneigeuse)
+            NEIGE=true
+            shift
+            ;;
         -q|--quartier)
             shift
             if [ $# -le 0 ]; then
@@ -28,7 +32,7 @@ done
 
 if [ DRONE ]; then
     echo -e CIRCUIT du drone arete par arete '\n' > data
-    python3 parcours_drone/data_centering.py ${quartier} >> data
+    python3 drone/drone_quartier.py ${quartier} >> data
 
     if [ $? -eq 1 ]; then
         echo -e '\n=================================================='

@@ -8,14 +8,13 @@ import sys
 city = ox.graph_from_place(sys.argv[1] + ", Montreal, CANADA", network_type="drive")
 #ox.plot_graph(city, node_color="r")
 
-#print("---Eulerization de city---")
+#---Eulerization de city---
 G = nx.Graph(city)
 g = nx.eulerize(G)
 
-#print("---Fin Eulerization de city---")
-#print(time.localtime(time.time()))
+#---Fin Eulerization de city---
 
-#print("---Debut de Eulerian circuit---")
+#---Debut de Eulerian circuit---
 
 res = list(nx.eulerian_circuit(g))
 edges = list(city.edges(keys=True, data=True))
@@ -26,11 +25,9 @@ for e in res:
     for edge in edges:
         if (e == (edge[0], edge[1])):
             length += edge[3]['length']
-            print(edge[3])
 
 
-#print("---Fin de Eulerian circuit---")
-#print(time.localtime(time.time()))
+#---Fin de Eulerian circuit---
 
 moyenne = []
 x = res[0][0]
