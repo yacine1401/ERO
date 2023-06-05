@@ -17,23 +17,23 @@ def cost(road, nb_v1, nb_v2):
         while (road_vehicule < portion_road_v1) and (n < len(road)):
             road_vehicule += road[n]
             n += 1
+        hours = max(road_vehicule / 10, hours)
         cost += (road_vehicule * 1.1)
         if (road_vehicule / 10 > 8):
             cost += ((road_vehicule / 10 - 8) * 1.3)
             road_vehicule = 80
         cost += ((road_vehicule / 10) * 1.1)
-        hours = max(road_vehicule / 10, hours)
     for k in range(nb_v2):
         road_vehicule = 0
         while (road_vehicule < portion_road_v2) and (n < len(road)):
             road_vehicule += road[n]
             n += 1
+        hours = max(road_vehicule / 20, hours)
         cost += (road_vehicule * 1.3)
         if (road_vehicule / 20 > 8):
             cost += ((road_vehicule / 20 - 8) * 1.5)
             road_vehicule = 160
         cost += ((road_vehicule / 20) * 1.3)
-        hours = max(road_vehicule / 20, hours)
     return cost, hours
 
 
