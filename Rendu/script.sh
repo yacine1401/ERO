@@ -40,8 +40,6 @@ while [ $# -gt 0 ]; do
     fi
 done
 
-if [
-
 
 if [ DRONE ]; then
     echo -e CIRCUIT du drone arete par arete '\n' > data
