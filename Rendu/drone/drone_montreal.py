@@ -4,7 +4,7 @@ import math
 import time
 import matplotlib.pyplot as plt
 
-print(time.localtime(time.time()))
+start = time.time()
 
 arrondissements = [
     "Ahuntsic-Cartierville",
@@ -50,6 +50,8 @@ def chemin_drone():
     return circuits
 
 circuits = chemin_drone()
-
-print(round(length) / 1000, "Km a parcourir dans Montreal", sys.argv[1], ".")
+end = time.time()
+elapsed = (end - start) / 100
+print(f'Temps d\éxécution : {elapsed:.2}s')
+print(round(length) / 1000, "Km a parcourir dans Montréal", sys.argv[1], ".")
 print("Pour un cout de", round(length / 1000) / 100, "euros et 100 euros de locations.")

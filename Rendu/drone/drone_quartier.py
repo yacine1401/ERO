@@ -4,7 +4,7 @@ import math
 import time
 import matplotlib.pyplot as plt
 import sys
-
+start = time.time()
 city = ox.graph_from_place(sys.argv[1] + ", Montreal, CANADA", network_type="drive")
 #ox.plot_graph(city, node_color="r")
 
@@ -55,6 +55,8 @@ for i in range(len(res)):
     res[i] = [round((res[i][0] - moyenne[0]) * 100 / e_x), round((res[i][1] - moyenne[1]) * 100 / e_y)]
     print(i, ": ", res[i])
 
-
+end = time.time()
+elapsed = (end - start) / 100
+print(f'Temps d\éxécution : {elapsed:.2}s')
 print(round(length) / 1000, "Km a parcourir dans le quartier", sys.argv[1], ".")
 print("Pour un cout de", round(length / 1000) / 100, "euros et 100 euros de locations.")
