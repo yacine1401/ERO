@@ -22,13 +22,13 @@ while [ $# -gt 0 ]; do
 done
 
 if [ DRONE ]; then
-    echo -e CIRCUIT du drone arrete par arrete '\n' > data
+    echo -e CIRCUIT du drone arete par arete '\n' > data
     python3 parcours_drone/data_centering.py ${quartier} >> data
 
     if [ $? -eq 1 ]; then
-        echo -e '\n' =====================
+        echo -e '\n=================================================='
         echo -e  ERROR: arrondissement ${quartier} inconnu essayer majuscule
-        echo -e ====================== '\n'
+        echo -e ================================================== '\n'
         exit 1
     fi
     cat data

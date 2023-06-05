@@ -1,5 +1,8 @@
 FLAG script.sh:
-    --drone/-d : affiche le circuit effectuer par le drone arete par arete
+    --drone/-d : affiche le circuit effectue par le drone arete par arete
 
-    --quartier/-q + quartier : affiche le circuit effectuer par le drone arete
-                               par arete du quartier choisi Outremont par default
+    --denneigeuse/-n: 
+
+    --quartier/-q + quartier : affiche le circuit effectue par le drone arete
+                               par arete du quartier choisi, Outremont par default
+                               si pas de flag
