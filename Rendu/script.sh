@@ -1,8 +1,8 @@
 #!/bin/sh
 
 DRONE=false
-NEIGE=false
 MONT=false
+COST=false
 quartier="Outremont"
 
 while [ $# -gt 0 ]; do
@@ -16,8 +16,8 @@ while [ $# -gt 0 ]; do
             DRONE=true
             shift
             ;;
-        -n|--deneigeuse)
-            NEIGE=true
+        -c|--cost)
+            COST=true
             shift
             ;;
         -m|--montreal)
@@ -40,6 +40,19 @@ while [ $# -gt 0 ]; do
     fi
 done
 
+if [ MONT ]; then
+    if [ DRONE ]; then
+        echo -e CIRCUIT du drone arete par arete '\n' > data
+        echo -e CIRCUIT du drone arete par arete '\n'
+        python3 drone/drone_montreal.py | tee -a data >> /dev/stdout
+    fi
+    if [ COST ]; then
+        echo -e CIRCUIT du drone arete par arete '\n' > data
+        echo -e CIRCUIT du drone arete par arete '\n'
+        python3 cost/cost_montreal.py | tee -a data >> /dev/stdout
+    fi
+    exit 1
+fi
 
 if [ DRONE ]; then
     echo -e CIRCUIT du drone arete par arete '\n' > data
@@ -54,15 +67,7 @@ if [ DRONE ]; then
     cat data
 fi
 
-if [ NEIGE ]; then
-    echo -e 'phrase \n' > data
-    python3 deneigement/cost.py ${quartier} >> data
-
-    if [ $? -eq 1 ]; then
-        echo -e '\n=================================================='
-        echo -e  ERROR: arrondissement ${quartier} inconnu essayer majuscule
-        echo -e '==================================================\n'
-        exit 1
-    fi
+if [ COST ]; then
+    python3 cost/cost_quartier.py ${quartier} >> data
     cat data
 fi

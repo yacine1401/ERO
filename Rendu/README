@@ -2,7 +2,7 @@ FLAG script.sh:
     --drone/-d : affiche le circuit effectue par le drone arete par arete, la
                  distance a parcourirs et le prix de l'operation.
 
-    --deneigeuse/-n: 
+    --cost/c: 
 
     --quartier/-q + quartier : affiche le circuit effectue par le drone arete
                                par arete du quartier choisi, Outremont par default
